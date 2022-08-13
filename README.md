@@ -34,6 +34,7 @@ In another terminal
 ## Optimizations
 
 # PAT input can be taken like a password input. Currently PAT is visible as an input unlike passwords.
+# Config file is not given admin priviliges yet
 
 
 ## Installation
