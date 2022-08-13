@@ -1,0 +1,24 @@
+{
+  "name": "gitc",
+  "version": "1.0.0",
+  "description": "A CLI to help create a github repository",
+  "main": "dist/index.js",
+  "preferGlobal": true,
+  "bin": "./bin/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "build": "tsc",
+    "build:dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ananth Raghav",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "octokit": "^2.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
